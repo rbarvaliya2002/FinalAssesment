@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;0,900;1,600&display=swap');
+
+/* Global styles */
+body {
+    font-family: 'Kanit', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    color: #3465a4;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #7da87b;
+    padding: 1em;
+  }
+  
+  nav li {
+    margin-right: 1em;
+  }
+  
+  nav li:last-child {
+    margin-right: 0;
+  }
+  
+  header{
+    background-color: #f5f5c6;
+    color: black;
+    padding: 2em;
+  }
+  .info-page{
+    background-color: #7da87b;
+  }
+  .page-content,.indexPage{
+    color: black;
+    padding: 2em;
+    background-color: #7da87b;
+  }
+
+  header h1 {
+    margin: 0;
+    font-size: 3em;
+  }
+  
+  main {
+    padding: 2em;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  footer {
+    background-color: #f0f0f0;
+    color: #333;
+    text-align: center;
+    padding: 1em;
+  }
+  
+  /* Page-specific styles */
+  
+  /* Home page */
+  
+  #hero {
+    background-color: #fff;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #hero h2 {
+    font-size: 4em;
+    text-align: center;
+  }
+  
+  #hero p {
+    font-size: 1.5em;
+    text-align: center;
+  }
+  
+  #hero a {
+    background-color: #3465a4;
+    color: #fff;
+    padding: 1em 2em;
+    border-radius: 2em;
+    display: inline-block;
+    margin-top: 1em;
+  }
+  
+  /* Info page */
+  
+  #info {
+    background-color: #f0f0f0;
+    padding: 2em;
+  }
+  
+  #info h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+  }
+  
+  #info p {
+    font-size: 1.2em;
+  }
+  
+  #info ul {
+    margin-left: 2em;
+  }
+  
+  /* Reviews page */
+  
+  .card {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color:#7da87b;
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+  }
+  
+  .card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .card p {
+    margin-bottom: 0.25rem;
+  }
+  
+  .card p.rating {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .card p.rating span {
+    color: #f2b01e;
+    font-size: 1.2rem;
+  }
+  
+  .card p.rating span.filled {
+    color: #f2b01e;
+  }
+  
+  .card p.rating span.empty {
+    color: #ddd;
+  }
+  
+img {
+    width: 560px;
+    height: 315px;
+    object-fit: cover;
+  }
+
+/* Add review form styles */
+#addReviewForm {
+    margin-top: 2em;
+    padding: 2em;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+  }
+  
+  #addReviewForm h2 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+  }
+  
+  #addReviewForm form div {
+    margin-bottom: 1em;
+  }
+  
+  #addReviewForm label {
+    display: inline-block;
+    width: 5em;
+    font-size: 1.2em;
+    margin-right: 1em;
+    text-align: right;
+  }
+  
+  #addReviewForm input[type="text"],
+  #addReviewForm input[type="number"],
+  #addReviewForm textarea {
+    font-size: 1.2em;
+    padding: 0.2em 0.4em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  #addReviewForm button[type="submit"] {
+    font-size: 1.2em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 0.5em 1em;
+    cursor: pointer;
+  }
+  
+  #addReviewForm button[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+footer{
+    background-color: #f5f5c6;
+    color: black;
+    padding: 2em;
+}
+ 

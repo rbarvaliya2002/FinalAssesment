@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css" type="text/css" />
+</head>
+<body>
+    <header>
+        <!-- Change this to your App's info -->
+        <h1 class="game-name">Monopoly</h1>
+        <p class="game-desc">
+          "Monopoly is just like real life, except everyone starts with different amounts of money and the rules are completely arbitrary."
+        </p>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="info.html">Info</a></li>
+            <li><a href="#">Reviews</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </nav>
+        
+      </header>
+      <main class="review">
+<div id="reviewsCardContainer"></div>
+<div id="addReviewForm">
+  <h2>Add a Review</h2>
+  <form>
+    <div>
+      <label for="name">Name:</label>
+      <input type="text" id="name" required>
+    </div>
+    <div>
+      <label for="rating">Rating:</label>
+      <input type="number" id="rating" min="1" max="5" required>
+    </div>
+    <div>
+      <label for="review">Review:</label>
+      <textarea id="review" required></textarea>
+    </div>
+    <div>
+      <button type="submit">Create</button>
+    </div>
+  </form>
+</main>
+</div>
+<!-- JavaScript Data Files -->
+    <script src="./js/object.js"></script>
+
+    <!-- Main App JavaScript File -->
+    <script src="./js/reviews.js"></script>
+    
+</body>
+
+</html>

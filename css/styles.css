@@ -75,37 +75,6 @@ body {
     padding: 1em;
   }
   
-  /* Page-specific styles */
-  
-  /* Home page */
-  
-  #hero {
-    background-color: #fff;
-    height: 80vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  #hero h2 {
-    font-size: 4em;
-    text-align: center;
-  }
-  
-  #hero p {
-    font-size: 1.5em;
-    text-align: center;
-  }
-  
-  #hero a {
-    background-color: #3465a4;
-    color: #fff;
-    padding: 1em 2em;
-    border-radius: 2em;
-    display: inline-block;
-    margin-top: 1em;
-  }
-  
   /* Info page */
   
   #info {
@@ -224,51 +193,50 @@ footer{
 }
 
 .Newsletter {
-    margin-top: 2em;
-    padding: 2em;
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
-  }
-  
-  .Newsletter h3 {
-    font-size: 1.5em;
-    margin-bottom: 0.5em;
-  }
-  
-  .Newsletter form div {
-    margin-bottom: 1em;
-  }
-  
-  .Newsletter label {
-    display: inline-block;
-    width: 5em;
-    font-size: 1.2em;
-    margin-right: 1em;
-    text-align: right;
-  }
-  
-  .Newsletter input[type="email"] {
-    font-size: 1.2em;
-    padding: 0.2em 0.4em;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-  }
-  
-  .Newsletter input[type="hidden"] {
-    display: none;
-  }
-  
-  .Newsletter button[type="submit"] {
-    font-size: 1.2em;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    padding: 0.5em 1em;
-    cursor: pointer;
-  }
-  
-  .Newsletter button[type="submit"]:hover {
-    background-color: #3e8e41;
-  }
-  
+  margin-top: 2em;
+  padding: 2em;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+}
+
+.Newsletter h3 {
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+.Newsletter form div {
+  margin-bottom: 1em;
+}
+
+.Newsletter label {
+  display: inline-block;
+  width: 5em;
+  font-size: 1.2em;
+  margin-right: 1em;
+  text-align: right;
+}
+
+.Newsletter input[type="email"] {
+  font-size: 1.2em;
+  padding: 0.2em 0.4em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.Newsletter input[type="hidden"] {
+  display: none;
+}
+
+.Newsletter button[type="submit"] {
+  font-size: 1.2em;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 0.5em 1em;
+  cursor: pointer;
+}
+
+.Newsletter button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
